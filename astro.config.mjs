@@ -13,7 +13,7 @@ export default defineConfig({
 	// trailingSlash: 'always',
 	integrations: [
 		tailwind({
-			configFile: './tailwind.config.js'
+			configFile: './tailwind.omoda.js'
 		}),
 		sitemap(),
 		robots({
@@ -46,6 +46,6 @@ export default defineConfig({
 			},
 		},
 	},
-	site: 'https://site.com',
+	site: 'https://omoda.alexsab.ru',
 	base: "/"
 });
