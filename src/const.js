@@ -1,11 +1,11 @@
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
-export const SITE_NAME = 'Автоцентр Альфа';
+export const SITE_NAME = 'Омода';
 // Юр лицо
-export const LEGAL_ENTITY = 'ООО «Альфа-Сервис»';
+export const LEGAL_ENTITY = 'ООО «Омода Самара»';
 // ИНН
-export const LEGAL_INN = '';
+export const LEGAL_INN = '1234567890';
 // Город
 export const LEGAL_CITY = 'г. Самара';
 // где? в Городе
@@ -13,7 +13,7 @@ export const LEGAL_CITY_WHERE = 'Самаре';
 // Описание сайта по умолчанию
 export const SITE_DESCR = 'Официальный дилерский центр';
 // Телефон по умолчанию
-export const PHONE = '+7 (846) 979-74-40';
+export const PHONE = '+7 (846) 211-11-11';
 // Бренд
 export const BRAND = '';
 // Конечное время для таймера
