@@ -1,0 +1,37 @@
+---
+h1: Трейд-ин для своих
+title: OMODA в Ульяновске — Трейд-ин для своих
+caption: Трейд-ин для своих
+breadcrumb: Трейд-ин для своих
+pubDate: 2025-02-16
+image: "/img/specials/trade-in-dlia-svoih/thumb.webp"
+description: "Сдавайте по специальной программе трейд-ин машину марок: CHERY / EXEED / OMODA / JAECOO / Audi / Volkswagen / BMW / Land Rover / Mercedes-Benz / Skoda и получайте максимальную скидку до 400 000 руб. для покупки новой OMODA!"
+---
+import Button from '@/components/Button/Button.astro';
+import SpecialSalonsInfo from '@/components/SpecialSalonsInfo.astro';
+import { SITE_NAME, PHONE } from '@/const';
+import { phoneFormat } from '@/js/utils/numbers.format';
+import { LAST_DAY, MONTH, MONTH_NOMINATIVE, MONTH_GENITIVE, MONTH_PREPOSITIONAL, YEAR } from '@/js/utils/date';
+
+export const dateFrom = '01.07.2024';
+export const dateTo = `${LAST_DAY}.${MONTH}.${YEAR}`;
+export const dateToGenitive = `${LAST_DAY} ${MONTH_GENITIVE} ${YEAR}`;
+export const dateToPrepositional = `${MONTH_PREPOSITIONAL} ${YEAR}`;
+
+<picture>
+	<img src="/img/specials/trade-in-dlia-svoih/1.webp" class="w-full mb-10" alt="Трейд-ин для своих" />
+</picture>
+
+### **Дополнительная выгода до 400 000 р**
+
+**Выгода при сдаче автомобиля в трейд-ин** - до 300 000р
+
+Указан максимальный размер выгоды потребителя - 300 000 рублей, которая достигается за счет программы Трейд-ин. Под скидкой по программе Трейд-ин понимается единовременная и разовая выгода потребителю на все комплектации от максимальной цены перепродажи автомобиля, приобретаемого по Программе, при сдаче в зачёт его стоимости принадлежащего потребителю любого автомобиля с пробегом. Условия программы уточняйте у официальных дилеров OMODA.
+
+**Трейд-ин для своих** - 100 000р
+
+Дополнительная скидка трейд-ин при сдаче автомобиля с пробегом марки:
+
+CHERY / EXEED / OMODA / JAECOO / Audi / Volkswagen / BMW / Land Rover / Mercedes-Benz / Skoda/ Hyundai / KIA/ Renault 
+
+<SpecialSalonsInfo dataFormName="Узнать подробнее. Трейд-ин для своих" />
