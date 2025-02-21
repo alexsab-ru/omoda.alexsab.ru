@@ -1,9 +1,9 @@
 import { phoneFormat } from '@/js/utils/numbers.format';
 import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
-export const SITE_NAME = 'Омода';
+export const SITE_NAME = 'Вип Авто';
 // Юр лицо
-export const LEGAL_ENTITY = 'ООО «Омода Самара»';
+export const LEGAL_ENTITY = '';
 // ИНН
 export const LEGAL_INN = '1234567890';
 // Город
