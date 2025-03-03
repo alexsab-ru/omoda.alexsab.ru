@@ -3,9 +3,9 @@ import { LAST_DAY, MONTH, YEAR } from '@/js/utils/date';
 // Название сайта по умолчанию
 export const SITE_NAME = 'Вип Авто';
 // Юр лицо
-export const LEGAL_ENTITY = '';
+export const LEGAL_ENTITY = 'ООО «Вип Авто Самара»';
 // ИНН
-export const LEGAL_INN = '1234567890';
+export const LEGAL_INN = '6312214182';
 // Город
 export const LEGAL_CITY = 'г. Самара';
 // где? в Городе
@@ -13,7 +13,7 @@ export const LEGAL_CITY_WHERE = 'Самаре';
 // Описание сайта по умолчанию
 export const SITE_DESCR = 'Официальный дилерский центр';
 // Телефон по умолчанию
-export const PHONE = '+7 (846) 211-11-11';
+export const PHONE = '+7 (846) 321-09-09';
 // Бренд
 export const BRAND = '';
 // Конечное время для таймера
